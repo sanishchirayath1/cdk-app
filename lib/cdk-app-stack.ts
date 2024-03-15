@@ -23,7 +23,7 @@ export class CdkAppStack extends cdk.Stack {
         ignorePublicAcls: false,
         restrictPublicBuckets: false,
       },
-
+      autoDeleteObjects: true,
       websiteIndexDocument: "index.html",
       websiteErrorDocument: "index.html",
       publicReadAccess: true,
